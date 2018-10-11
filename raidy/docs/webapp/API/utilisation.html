@@ -1,0 +1,586 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Utilisation de l'API · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="authentification.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Installation
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../installation/gitbook.html">
+            
+                <a href="../../installation/gitbook.html">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Bonnes pratiques
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../best-practices/DOR.html">
+            
+                <a href="../../best-practices/DOR.html">
+            
+                    
+                    Definition of Ready (DOR)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../best-practices/DOD.html">
+            
+                <a href="../../best-practices/DOD.html">
+            
+                    
+                    Definition of Done (DOD)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../best-practices/grumphp.html">
+            
+                <a href="../../best-practices/grumphp.html">
+            
+                    
+                    GrumPHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Application Web
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../installation.html">
+            
+                <a href="../installation.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.2.1" data-path="utilisation.html">
+            
+                <a href="utilisation.html">
+            
+                    
+                    Utilisation de l'API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="authentification.html">
+            
+                <a href="authentification.html">
+            
+                    
+                    Authentification sur l'API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" >
+            
+                <span>
+            
+                    
+                    Routes d'API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.3.1" data-path="routes/authentification.html">
+            
+                <a href="routes/authentification.html">
+            
+                    
+                    Authentification
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../front/front.html">
+            
+                <a href="../front/front.html">
+            
+                    
+                    Front-office
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../front/gulp.html">
+            
+                <a href="../front/gulp.html">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../tests-fonctionnels/tests.html">
+            
+                <a href="../../tests-fonctionnels/tests.html">
+            
+                    
+                    Tests
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" >
+            
+                <span>
+            
+                    
+                    Administration
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../tests-fonctionnels/Admin/organizer.html">
+            
+                <a href="../../tests-fonctionnels/Admin/organizer.html">
+            
+                    
+                    Organizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../../tests-fonctionnels/Organizer/raids.html">
+            
+                <a href="../../tests-fonctionnels/Organizer/raids.html">
+            
+                    
+                    Raids
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" >
+            
+                <span>
+            
+                    
+                    API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../tests-fonctionnels/API/authentification.html">
+            
+                <a href="../../tests-fonctionnels/API/authentification.html">
+            
+                    
+                    Authentification
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Utilisation de l'API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="utilisation-de-lapi">Utilisation de l&apos;API</h1>
+<p>L&apos;API <strong>Into The Woods</strong> est une API REST interrogeable via des requ&#xEA;tes HTTP. </p>
+<p>Ces requ&#xEA;tes exploitent diff&#xE9;rents verbes HTTP qui sont li&#xE9;es &#xE0; diff&#xE9;rentes actions :</p>
+<ul>
+<li><strong>GET</strong> : r&#xE9;cup&#xE9;ration d&apos;informations</li>
+<li><strong>POST</strong> : Cr&#xE9;er une entit&#xE9;</li>
+<li><strong>PUT</strong> : Remplacer une entit&#xE9;</li>
+<li><strong>PATCH</strong> : Mettre &#xE0; jour une entit&#xE9;</li>
+<li><strong>DELETE</strong> : Supprimer une entit&#xE9;</li>
+</ul>
+<p>Afin de communiquer des donn&#xE9;es &#xE0; l&apos;API il est recommand&#xE9; d&apos;utiliser le format <strong>JSON</strong> dans le corps de la requ&#xEA;te.</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;login&quot;</span>:test,
+    <span class="hljs-string">&quot;password&quot;</span>:<span class="hljs-string">&quot;azerty&quot;</span>
+}
+</code></pre>
+<p><em>Exemple de donn&#xE9;es lors de l&apos;authentification</em></p>
+<p>Le type de retour de l&apos;API est &#xE9;galement le <strong>JSON</strong>.</p>
+<h2 id="utiliser-le-jeton">Utiliser le jeton</h2>
+<p>Une fois l&apos;utilisateur authentifi&#xE9; l&apos;API lui retourne un jeton qu&apos;il soit stocker et utiliser &#xE0; chaque requ&#xEA;te sur l&apos;API.</p>
+<p>Pour passer ce jeton &#xE0; l&apos;API il faut ajouter un champ <code>X-Auth-Token</code> dans l&apos;ent&#xEA;te de la requ&#xEA;te HTTP. Ce champ prend pour valeur le jeton.</p>
+<p>Si la requ&#xEA;te ne contient pas ce jeton le serveur r&#xE9;pond avec une erreur HTTP <strong>500</strong>.</p>
+<h2 id="valeurs-de-retour">Valeurs de retour</h2>
+<p>Lorsqu&apos;une r&#xE9;ponse ne contient pas de donn&#xE9;es ou dans le cas d&apos;une erreur l&apos;API retourne un objet JSON contenant deux champs : </p>
+<ul>
+<li><p><strong>code</strong> : code de retour HTTP</p>
+</li>
+<li><p><strong>message</strong> : message associ&#xE9;</p>
+</li>
+</ul>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;code&quot;</span>:<span class="hljs-number">500</span>,
+    <span class="hljs-string">&quot;message&quot;</span>:<span class="hljs-string">&quot;Invalid authentication token&quot;</span>
+}
+</code></pre>
+<p><em>Exemple de valeur de retour</em></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="authentification.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Authentification sur l'API">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Utilisation de l'API","level":"1.4.2.1","depth":3,"next":{"title":"Authentification sur l'API","level":"1.4.2.2","depth":3,"path":"webapp/API/authentification.md","ref":"webapp/API/authentification.md","articles":[]},"previous":{"title":"API","level":"1.4.2","depth":2,"ref":"","articles":[{"title":"Utilisation de l'API","level":"1.4.2.1","depth":3,"path":"webapp/API/utilisation.md","ref":"webapp/API/utilisation.md","articles":[]},{"title":"Authentification sur l'API","level":"1.4.2.2","depth":3,"path":"webapp/API/authentification.md","ref":"webapp/API/authentification.md","articles":[]},{"title":"Routes d'API","level":"1.4.2.3","depth":3,"ref":"","articles":[{"title":"Authentification","level":"1.4.2.3.1","depth":4,"path":"webapp/API/routes/authentification.md","ref":"webapp/API/routes/authentification.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"webapp/API/utilisation.md","mtime":"2018-09-27T15:11:14.893Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-11T06:51:01.931Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
